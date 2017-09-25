@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+}
+
+/*HEADER ELEMENTS*/
+/*----------------------------------------*/
+#header {
+  width: 100%;
+  height: 2.5em;
+  background-color: lightgrey;
+  border-bottom: 1px solid grey;
+}
+
+#title {
+  display: inline-block;
+  float: left;
+  padding: 0.7em 0 0 1em;
+  width: 25%;
+  font-weight: 700;
+}
+
+#wrapper {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  padding: 0.4em 0 0;
+  float: left;
+  width: 48%;
+  margin: 0;
+}
+
+#wrapper ol li{
+  list-style: none;
+  float: left;
+  padding: 5px 5px 7px;
+  border-right: 1px solid grey;
+  padding-bottom: 2px;
+  font-style: bold;
+}
+
+#wrapper ol li:hover {
+  background-color: white;
+  border-radius: 3px;
+}
+
+#wrapper ol li:last-child {
+  border-right: none;
+}
+
+#wrapper ol {
+  border: 1px solid grey;
+  border-radius: 3px;
+  text-align: center;
+  height: 1.5em;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+#runwrapper {
+  float: left;
+  height: 0px;
+  width: 25%;
+  margin: 0;
+}
+
+#run {
+  float: right;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0.3em 2.2em 0 0;
+  height: 1.8em;
+  font-size: 1em;
+  display: inline-block;
+  background-color: lightgrey;
+}
+
+#run:hover {
+  background-color: lightgreen;
+}
+
+
+/*INPUT ELEMENTS*/
+/*----------------------------------------------*/
+main {
+  margin:0;
+  padding:0;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 25%;
+  position: relative;
+  float: left;
+}
+
+#html1, #css1, #js1 {
+  height: 100%;
+  width: 100%;
+  font-size: 90%;
+  padding: 20px 95px 20px 20px;
+  border: none;
+  border-right: 1px solid grey;
+}
+
+.container label {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: lightgrey;
+}
+
+.result {
+  float: left;
+  position: relative;
+  height: 100%;
+  width: 48%;
+}
+
+.result label {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+}
+
+iframe {
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding: 20px 0 20px 10px;
+  margin: 0;
+}
+
+/*TOGGLING*/
+/*------------------------------------*/
+.selected {
+  background-color: grey;
+}
